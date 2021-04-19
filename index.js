@@ -7,11 +7,9 @@ const cors = require ('cors');
 const PORT = process.env.PORT || 4000;
 app.listen(PORT,()=> console.log(`Server running in ${PORT}`));
 // Library to allow the data from the front-end.
-const bodyParser = require('body-parser');
-
 app.use(cors());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 // Structure
 
