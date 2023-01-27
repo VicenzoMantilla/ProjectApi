@@ -1,4 +1,4 @@
-# WEEK 11 - API & HTTP
+# API & HTTP
 
 **Version 1.0.0**
 
@@ -32,4 +32,4 @@ The index.js file starts the local server with port 4000.
 
 ## License & Copyright
 
-© Vicenzo Mantilla, Radium Rocket Course.
+© Vicenzo Mantilla
